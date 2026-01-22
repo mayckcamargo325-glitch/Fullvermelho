@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.full.vermelho">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <queries>
+        <package android:name="com.dts.freefireth" />
+        <package android:name="com.dts.freefiremax" />
+    </queries>
+    <application android:label="-3,90 UMP☯︎">
+        <service android:name=".FloatingService" android:enabled="true" android:exported="false" />
+    </application>
+</manifest>
