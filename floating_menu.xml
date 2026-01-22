@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/login_area"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-3,90 UMP☯︎"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edit_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a Key"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CCCCCC"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGAR"
+            android:backgroundTint="#FF0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_area"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Switch
+            android:id="@+id/sw_hs_pescoco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HS PESCOÇO"
+            android:textColor="#FFFFFF"/>
+        <Switch
+            android:id="@+id/sw_hs_peito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HS PEITO"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
+          
